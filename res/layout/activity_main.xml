@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111222"
+            android:clickable="true"
+            android:onClick="slidingmenu01"
+            android:padding="16dip"
+            android:text="最普通的侧滑效果"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111333"
+            android:clickable="true"
+            android:onClick="slidingmenu02"
+            android:padding="16dip"
+            android:text="慕课网侧滑"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111444"
+            android:clickable="true"
+            android:onClick="slidingmenu03"
+            android:padding="16dip"
+            android:text="仿qq策划"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111555"
+            android:clickable="true"
+            android:onClick="slidingmenu04"
+            android:padding="16dip"
+            android:text="仿魅族设置菜单"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</ScrollView>
