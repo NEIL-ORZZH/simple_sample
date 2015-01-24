@@ -29,6 +29,10 @@ public class MainActivity extends Activity {
 		router(SlidingMenu004.class);
 	}
 
+	public void slidingmenu05(View view) {
+		router(SlidingMenu005.class);
+	}
+
 	private void router(Class clazz) {
 		Intent intent = new Intent(MainActivity.this, clazz);
 		startActivity(intent);

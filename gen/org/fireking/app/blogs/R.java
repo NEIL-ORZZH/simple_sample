@@ -32,12 +32,23 @@ containing a value of this type.
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int img_frame_background=0x7f020001;
-        public static final int qq=0x7f020002;
+        public static final int computer=0x7f020000;
+        public static final int dianhua=0x7f020001;
+        public static final int discuss=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int img_frame_background=0x7f020004;
+        public static final int mobile=0x7f020005;
+        public static final int qq=0x7f020006;
+        public static final int saoma=0x7f020007;
+        public static final int saoyisao=0x7f020008;
+        public static final int wode=0x7f020009;
+        public static final int youce=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
+        public static final int action_settings=0x7f080004;
+        public static final int id_drawerLayout=0x7f080001;
+        public static final int id_left_menu=0x7f080002;
+        public static final int id_right_menu=0x7f080003;
         public static final int slidingmenu=0x7f080000;
     }
     public static final class layout {
@@ -46,8 +57,11 @@ containing a value of this type.
         public static final int activity_slidingmenu_002=0x7f030002;
         public static final int activity_slidingmenu_003=0x7f030003;
         public static final int activity_slidingmenu_004=0x7f030004;
-        public static final int slidingmenu_001=0x7f030005;
-        public static final int slidingmenu_left=0x7f030006;
+        public static final int activity_slidingmenu_005=0x7f030005;
+        public static final int menu_left=0x7f030006;
+        public static final int menu_right=0x7f030007;
+        public static final int slidingmenu_001=0x7f030008;
+        public static final int slidingmenu_left=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f070000;

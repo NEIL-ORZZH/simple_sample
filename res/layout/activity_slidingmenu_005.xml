@@ -1,0 +1,31 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_frame_background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/qq" >
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/id_left_menu"
+        android:name="org.fireking.app.blogs.fragment.MenuLeftFragment"
+        android:layout_width="200dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:tag="LEFT" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/id_right_menu"
+        android:name="org.fireking.app.blogs.fragment.MenuRightFragment"
+        android:layout_width="100dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:tag="RIGHT" >
+    </fragment>
+
+</android.support.v4.widget.DrawerLayout>

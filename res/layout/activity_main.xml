@@ -47,6 +47,16 @@
             android:padding="16dip"
             android:text="仿魅族设置菜单"
             android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111666"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="仿qq 5.2.1侧滑效果（DrawerLayout）"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </ScrollView>
