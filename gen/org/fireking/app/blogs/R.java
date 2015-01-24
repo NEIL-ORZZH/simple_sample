@@ -45,11 +45,16 @@ containing a value of this type.
         public static final int youce=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f080004;
+        public static final int action_settings=0x7f080009;
+        public static final int five=0x7f080007;
+        public static final int four=0x7f080006;
         public static final int id_drawerLayout=0x7f080001;
         public static final int id_left_menu=0x7f080002;
-        public static final int id_right_menu=0x7f080003;
+        public static final int id_right_menu=0x7f080008;
+        public static final int one=0x7f080003;
         public static final int slidingmenu=0x7f080000;
+        public static final int three=0x7f080005;
+        public static final int two=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -58,10 +63,8 @@ containing a value of this type.
         public static final int activity_slidingmenu_003=0x7f030003;
         public static final int activity_slidingmenu_004=0x7f030004;
         public static final int activity_slidingmenu_005=0x7f030005;
-        public static final int menu_left=0x7f030006;
-        public static final int menu_right=0x7f030007;
-        public static final int slidingmenu_001=0x7f030008;
-        public static final int slidingmenu_left=0x7f030009;
+        public static final int slidingmenu_001=0x7f030006;
+        public static final int slidingmenu_left=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f070000;
