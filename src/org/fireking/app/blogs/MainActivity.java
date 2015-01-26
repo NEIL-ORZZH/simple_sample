@@ -33,6 +33,10 @@ public class MainActivity extends Activity {
 		router(SlidingMenu005.class);
 	}
 
+	public void gameview1(View view) {
+		router(Game2048.class);
+	}
+
 	private void router(Class clazz) {
 		Intent intent = new Intent(MainActivity.this, clazz);
 		startActivity(intent);
