@@ -33,6 +33,10 @@ public class MainActivity extends Activity {
 		router(SlidingMenu005.class);
 	}
 
+	public void lekan_video(View view) {
+		router(LeKanVideo.class);
+	}
+
 	public void gameview1(View view) {
 		router(Game2048.class);
 	}

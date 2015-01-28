@@ -81,8 +81,10 @@ containing a value of this type.
         public static final int g_2048_container=0x7f030006;
         public static final int g_2048_item=0x7f030007;
         public static final int game_2048=0x7f030008;
-        public static final int slidingmenu_001=0x7f030009;
-        public static final int slidingmenu_left=0x7f03000a;
+        public static final int lekan_video=0x7f030009;
+        public static final int lekan_video_player=0x7f03000a;
+        public static final int slidingmenu_001=0x7f03000b;
+        public static final int slidingmenu_left=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f070000;

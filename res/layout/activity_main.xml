@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:background="#CD5C5C"
             android:clickable="true"
-            android:onClick="slidingmenu05"
+            android:onClick="lekan_video"
             android:padding="16dip"
             android:text="乐看搜索"
             android:textColor="@android:color/white" />
