@@ -23,34 +23,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.SlidingMenu001"
+            android:name="org.fireking.app.blogs.menu.SlidingMenu001"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.SlidingMenu002"
+            android:name="org.fireking.app.blogs.menu.SlidingMenu002"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.SlidingMenu003"
+            android:name="org.fireking.app.blogs.menu.SlidingMenu003"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.SlidingMenu004"
+            android:name="org.fireking.app.blogs.menu.SlidingMenu004"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.SlidingMenu005"
+            android:name="org.fireking.app.blogs.menu.SlidingMenu005"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
         <activity
-            android:name="org.fireking.app.blogs.Game2048"
+            android:name="org.fireking.app.blogs.video.LeKanVideo"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="org.fireking.app.blogs.g2048.Game2048"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="org.fireking.app.blogs.inject.InjectFramework"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
     </application>
 

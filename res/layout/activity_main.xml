@@ -61,31 +61,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#CD0000"
+            android:background="#ff3d3d"
             android:clickable="true"
-            android:onClick="gameview1"
+            android:onClick="game2048"
             android:padding="16dip"
-            android:text="2048游戏(自己的方式实现)"
-            android:textColor="@android:color/white" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FF3E96"
-            android:clickable="true"
-            android:onClick="slidingmenu05"
-            android:padding="16dip"
-            android:text="2048游戏(ViewGroup布局实现)"
-            android:textColor="@android:color/white" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#CD4F39"
-            android:clickable="true"
-            android:onClick="slidingmenu05"
-            android:padding="16dip"
-            android:text="文档浏览器"
+            android:text="2048(极客学院)"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -96,6 +76,16 @@
             android:onClick="lekan_video"
             android:padding="16dip"
             android:text="乐看搜索"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD4F39"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="文档浏览器"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -123,7 +113,7 @@
             android:layout_height="wrap_content"
             android:background="#836FFF"
             android:clickable="true"
-            android:onClick="slidingmenu05"
+            android:onClick="injectframework"
             android:padding="16dip"
             android:text="View注入框架"
             android:textColor="@android:color/white" />

@@ -59,15 +59,16 @@ containing a value of this type.
         public static final int youce=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f08000b;
         public static final int five=0x7f080007;
         public static final int four=0x7f080006;
-        public static final int games=0x7f080009;
         public static final int id_drawerLayout=0x7f080001;
         public static final int id_left_menu=0x7f080002;
         public static final int id_right_menu=0x7f080008;
         public static final int one=0x7f080003;
         public static final int slidingmenu=0x7f080000;
+        public static final int test=0x7f08000a;
+        public static final int thanks=0x7f080009;
         public static final int three=0x7f080005;
         public static final int two=0x7f080004;
     }
@@ -78,13 +79,12 @@ containing a value of this type.
         public static final int activity_slidingmenu_003=0x7f030003;
         public static final int activity_slidingmenu_004=0x7f030004;
         public static final int activity_slidingmenu_005=0x7f030005;
-        public static final int g_2048_container=0x7f030006;
-        public static final int g_2048_item=0x7f030007;
-        public static final int game_2048=0x7f030008;
-        public static final int lekan_video=0x7f030009;
-        public static final int lekan_video_player=0x7f03000a;
-        public static final int slidingmenu_001=0x7f03000b;
-        public static final int slidingmenu_left=0x7f03000c;
+        public static final int g_2048=0x7f030006;
+        public static final int inject_sample=0x7f030007;
+        public static final int lekan_video=0x7f030008;
+        public static final int lekan_video_player=0x7f030009;
+        public static final int slidingmenu_001=0x7f03000a;
+        public static final int slidingmenu_left=0x7f03000b;
     }
     public static final class menu {
         public static final int main=0x7f070000;

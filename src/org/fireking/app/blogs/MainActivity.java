@@ -1,5 +1,14 @@
 package org.fireking.app.blogs;
 
+import org.fireking.app.blogs.g2048.Game2048;
+import org.fireking.app.blogs.inject.InjectFramework;
+import org.fireking.app.blogs.menu.SlidingMenu001;
+import org.fireking.app.blogs.menu.SlidingMenu002;
+import org.fireking.app.blogs.menu.SlidingMenu003;
+import org.fireking.app.blogs.menu.SlidingMenu004;
+import org.fireking.app.blogs.menu.SlidingMenu005;
+import org.fireking.app.blogs.video.LeKanVideo;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,8 +46,12 @@ public class MainActivity extends Activity {
 		router(LeKanVideo.class);
 	}
 
-	public void gameview1(View view) {
+	public void game2048(View view) {
 		router(Game2048.class);
+	}
+
+	public void injectframework(View view) {
+		router(InjectFramework.class);
 	}
 
 	private void router(Class clazz) {
