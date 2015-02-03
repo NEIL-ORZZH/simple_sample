@@ -19,6 +19,94 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int MenuPadding=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progerss_reached_color=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_reached_bar_height=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_text_color=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_text_offset=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_text_size=0x7f010005;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int progress_text_visibility=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_unreached_bar_height=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_unreached_color=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int radius=0x7f010009;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -59,18 +147,20 @@ containing a value of this type.
         public static final int youce=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000b;
-        public static final int five=0x7f080007;
-        public static final int four=0x7f080006;
-        public static final int id_drawerLayout=0x7f080001;
-        public static final int id_left_menu=0x7f080002;
-        public static final int id_right_menu=0x7f080008;
-        public static final int one=0x7f080003;
-        public static final int slidingmenu=0x7f080000;
-        public static final int test=0x7f08000a;
-        public static final int thanks=0x7f080009;
-        public static final int three=0x7f080005;
-        public static final int two=0x7f080004;
+        public static final int action_settings=0x7f08000d;
+        public static final int five=0x7f080009;
+        public static final int four=0x7f080008;
+        public static final int id_drawerLayout=0x7f080003;
+        public static final int id_left_menu=0x7f080004;
+        public static final int id_right_menu=0x7f08000a;
+        public static final int invisible=0x7f080000;
+        public static final int one=0x7f080005;
+        public static final int slidingmenu=0x7f080002;
+        public static final int test=0x7f08000c;
+        public static final int thanks=0x7f08000b;
+        public static final int three=0x7f080007;
+        public static final int two=0x7f080006;
+        public static final int visible=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -80,11 +170,12 @@ containing a value of this type.
         public static final int activity_slidingmenu_004=0x7f030004;
         public static final int activity_slidingmenu_005=0x7f030005;
         public static final int g_2048=0x7f030006;
-        public static final int inject_sample=0x7f030007;
-        public static final int lekan_video=0x7f030008;
-        public static final int lekan_video_player=0x7f030009;
-        public static final int slidingmenu_001=0x7f03000a;
-        public static final int slidingmenu_left=0x7f03000b;
+        public static final int hy_progress_h=0x7f030007;
+        public static final int inject_sample=0x7f030008;
+        public static final int lekan_video=0x7f030009;
+        public static final int lekan_video_player=0x7f03000a;
+        public static final int slidingmenu_001=0x7f03000b;
+        public static final int slidingmenu_left=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -123,6 +214,189 @@ containing a value of this type.
         public static final int AppTheme=0x7f060001;
     }
     public static final class styleable {
+        /** Attributes that can be used with a HorizontalProgerssBarWithNumber.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progerss_reached_color org.fireking.app.blogs:progerss_reached_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_reached_bar_height org.fireking.app.blogs:progress_reached_bar_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_text_color org.fireking.app.blogs:progress_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_text_offset org.fireking.app.blogs:progress_text_offset}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_text_size org.fireking.app.blogs:progress_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_text_visibility org.fireking.app.blogs:progress_text_visibility}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_unreached_bar_height org.fireking.app.blogs:progress_unreached_bar_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #HorizontalProgerssBarWithNumber_progress_unreached_color org.fireking.app.blogs:progress_unreached_color}</code></td><td></td></tr>
+           </table>
+           @see #HorizontalProgerssBarWithNumber_progerss_reached_color
+           @see #HorizontalProgerssBarWithNumber_progress_reached_bar_height
+           @see #HorizontalProgerssBarWithNumber_progress_text_color
+           @see #HorizontalProgerssBarWithNumber_progress_text_offset
+           @see #HorizontalProgerssBarWithNumber_progress_text_size
+           @see #HorizontalProgerssBarWithNumber_progress_text_visibility
+           @see #HorizontalProgerssBarWithNumber_progress_unreached_bar_height
+           @see #HorizontalProgerssBarWithNumber_progress_unreached_color
+         */
+        public static final int[] HorizontalProgerssBarWithNumber = {
+            0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004,
+            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progerss_reached_color}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progerss_reached_color
+        */
+        public static final int HorizontalProgerssBarWithNumber_progerss_reached_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_reached_bar_height}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_reached_bar_height
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_reached_bar_height = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_text_color}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_text_color
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_text_color = 5;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_text_offset}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_text_offset
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_text_offset = 6;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_text_size}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_text_size
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_text_size = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_text_visibility}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>visible</code></td><td>0</td><td></td></tr>
+<tr><td><code>invisible</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.fireking.app.blogs:progress_text_visibility
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_text_visibility = 7;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_unreached_bar_height}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_unreached_bar_height
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_unreached_bar_height = 3;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progress_unreached_color}
+          attribute's value can be found in the {@link #HorizontalProgerssBarWithNumber} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:progress_unreached_color
+        */
+        public static final int HorizontalProgerssBarWithNumber_progress_unreached_color = 0;
+        /** Attributes that can be used with a RoundProgressBarWithNumber.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RoundProgressBarWithNumber_radius org.fireking.app.blogs:radius}</code></td><td></td></tr>
+           </table>
+           @see #RoundProgressBarWithNumber_radius
+         */
+        public static final int[] RoundProgressBarWithNumber = {
+            0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#radius}
+          attribute's value can be found in the {@link #RoundProgressBarWithNumber} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:radius
+        */
+        public static final int RoundProgressBarWithNumber_radius = 0;
         /** Attributes that can be used with a SlidingMenu.
            <p>Includes the following attributes:</p>
            <table>

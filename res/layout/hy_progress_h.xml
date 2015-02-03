@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <org.fireking.app.blogs.pgb_hy.view.HorizontalProgressBarWithNumber
+        xmlns:app="http://schemas.android.com/apk/res/org.fireking.app.blogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dip"
+        android:max="100"
+        android:padding="8dip"
+        android:progress="45"
+        app:progress_reached_bar_height="5dip"
+        app:progress_text_size="16sp"
+        app:progress_unreached_bar_height="5dip" />
+
+    <org.fireking.app.blogs.pgb_hy.view.RoundProgressBarWithNumber
+        xmlns:app="http://schemas.android.com/apk/res/org.fireking.app.blogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dip"
+        android:max="100"
+        android:padding="8dip"
+        android:progress="59"
+        app:progress_reached_bar_height="5dip"
+        app:progress_text_size="16sp"
+        app:radius="60dp" />
+
+</LinearLayout>

@@ -62,6 +62,11 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
+        <activity
+            android:name="org.fireking.app.blogs.pgb_hy.HyProgressBar"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
     </application>
 
 </manifest>

@@ -117,6 +117,16 @@
             android:padding="16dip"
             android:text="View注入框架"
             android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83699F"
+            android:clickable="true"
+            android:onClick="progressbar_hy"
+            android:padding="16dip"
+            android:text="Progressbar（hongyang版）"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </ScrollView>

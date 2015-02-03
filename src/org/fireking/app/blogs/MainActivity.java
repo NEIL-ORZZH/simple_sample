@@ -7,6 +7,7 @@ import org.fireking.app.blogs.menu.SlidingMenu002;
 import org.fireking.app.blogs.menu.SlidingMenu003;
 import org.fireking.app.blogs.menu.SlidingMenu004;
 import org.fireking.app.blogs.menu.SlidingMenu005;
+import org.fireking.app.blogs.pgb_hy.HyProgressBar;
 import org.fireking.app.blogs.video.LeKanVideo;
 
 import android.app.Activity;
@@ -52,6 +53,10 @@ public class MainActivity extends Activity {
 
 	public void injectframework(View view) {
 		router(InjectFramework.class);
+	}
+
+	public void progressbar_hy(View view) {
+		router(HyProgressBar.class);
 	}
 
 	private void router(Class clazz) {
