@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dip"
+        android:background="#344566"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="启动"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dip"
+        android:background="#445566"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="关闭"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

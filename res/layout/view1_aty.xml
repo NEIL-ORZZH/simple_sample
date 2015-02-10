@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/org.fireking.app.blogs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        app:backgroundColor="#334455"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="18sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        app:backgroundColor="#ff78ab"
+        app:gravity="center_vertical"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#f458ab"
+        app:gravity="left"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#111222"
+        app:gravity="right"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#334455"
+        app:gravity="top"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#223344"
+        app:gravity="buttom"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#f458ab"
+        app:gravity="center"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:backgroundColor="#556677"
+        app:gravity="center_vertical"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+    <org.fireking.app.blogs.cus_view.view.CusView1
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:padding="10dip"
+        app:backgroundColor="#556677"
+        app:gravity="center_horizontal"
+        app:text="Hello world"
+        app:textColor="@android:color/white"
+        app:textSize="14sp" />
+
+</LinearLayout>

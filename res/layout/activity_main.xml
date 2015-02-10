@@ -71,6 +71,56 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#836FFF"
+            android:clickable="true"
+            android:onClick="injectframework"
+            android:padding="16dip"
+            android:text="View注入框架"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83699F"
+            android:clickable="true"
+            android:onClick="progressbar_hy"
+            android:padding="16dip"
+            android:text="Progressbar（hongyang版）"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83c199"
+            android:clickable="true"
+            android:onClick="customView"
+            android:padding="16dip"
+            android:text="自定义view测试"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83ee9F"
+            android:clickable="true"
+            android:onClick="propertyAnimation"
+            android:padding="16dip"
+            android:text="属性动画"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83699F"
+            android:clickable="true"
+            android:onClick="useService"
+            android:padding="16dip"
+            android:text="Service使用"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="#CD5C5C"
             android:clickable="true"
             android:onClick="lekan_video"
@@ -106,26 +156,6 @@
             android:onClick="slidingmenu05"
             android:padding="16dip"
             android:text="图片加载框架"
-            android:textColor="@android:color/white" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#836FFF"
-            android:clickable="true"
-            android:onClick="injectframework"
-            android:padding="16dip"
-            android:text="View注入框架"
-            android:textColor="@android:color/white" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#83699F"
-            android:clickable="true"
-            android:onClick="progressbar_hy"
-            android:padding="16dip"
-            android:text="Progressbar（hongyang版）"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

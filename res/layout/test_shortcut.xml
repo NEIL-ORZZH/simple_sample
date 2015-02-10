@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA500"
+            android:clickable="true"
+            android:onClick="slidingmenu01"
+            android:padding="16dip"
+            android:text="最普通的侧滑效果"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD39B"
+            android:clickable="true"
+            android:onClick="slidingmenu02"
+            android:padding="16dip"
+            android:text="慕课网侧滑"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA54F"
+            android:clickable="true"
+            android:onClick="slidingmenu03"
+            android:padding="16dip"
+            android:text="仿qq策划"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6347"
+            android:clickable="true"
+            android:onClick="slidingmenu04"
+            android:padding="16dip"
+            android:text="仿魅族设置菜单"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6A6A"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="仿qq 5.2.1侧滑效果（DrawerLayout）"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3d3d"
+            android:clickable="true"
+            android:onClick="game2048"
+            android:padding="16dip"
+            android:text="2048(极客学院)"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#836FFF"
+            android:clickable="true"
+            android:onClick="injectframework"
+            android:padding="16dip"
+            android:text="View注入框架"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83699F"
+            android:clickable="true"
+            android:onClick="progressbar_hy"
+            android:padding="16dip"
+            android:text="Progressbar（hongyang版）"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#83699F"
+            android:clickable="true"
+            android:onClick="useService"
+            android:padding="16dip"
+            android:text="Service使用"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD5C5C"
+            android:clickable="true"
+            android:onClick="lekan_video"
+            android:padding="16dip"
+            android:text="乐看搜索"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CD4F39"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="文档浏览器"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A6A6A6"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="刮刮乐"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8B5742"
+            android:clickable="true"
+            android:onClick="slidingmenu05"
+            android:padding="16dip"
+            android:text="图片加载框架"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,5 +1,6 @@
 package org.fireking.app.blogs;
 
+import org.fireking.app.blogs.cus_view.CustomView;
 import org.fireking.app.blogs.g2048.Game2048;
 import org.fireking.app.blogs.inject.InjectFramework;
 import org.fireking.app.blogs.menu.SlidingMenu001;
@@ -8,6 +9,8 @@ import org.fireking.app.blogs.menu.SlidingMenu003;
 import org.fireking.app.blogs.menu.SlidingMenu004;
 import org.fireking.app.blogs.menu.SlidingMenu005;
 import org.fireking.app.blogs.pgb_hy.HyProgressBar;
+import org.fireking.app.blogs.property_animation.PropertyAnimationTest;
+import org.fireking.app.blogs.service.UseService;
 import org.fireking.app.blogs.video.LeKanVideo;
 
 import android.app.Activity;
@@ -57,6 +60,18 @@ public class MainActivity extends Activity {
 
 	public void progressbar_hy(View view) {
 		router(HyProgressBar.class);
+	}
+
+	public void useService(View view) {
+		router(UseService.class);
+	}
+
+	public void propertyAnimation(View view) {
+		router(PropertyAnimationTest.class);
+	}
+
+	public void customView(View view) {
+		router(CustomView.class);
 	}
 
 	private void router(Class clazz) {

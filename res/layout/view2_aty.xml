@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/org.fireking.app.blogs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <org.fireking.app.blogs.cus_view.view.CusView2
+        android:layout_width="match_parent"
+        android:layout_height="100dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE4B5"
+        android:orientation="horizontal"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip" >
+
+        <org.fireking.app.blogs.cus_view.view.DotView
+            android:id="@+id/dot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:dotview="#ff0000" />
+
+        <org.fireking.app.blogs.cus_view.view.DotView
+            android:id="@+id/dot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:dotview="#00ff00" />
+
+        <org.fireking.app.blogs.cus_view.view.DotView
+            android:id="@+id/dot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            app:dotview="#0000ff" />
+    </LinearLayout>
+
+</LinearLayout>

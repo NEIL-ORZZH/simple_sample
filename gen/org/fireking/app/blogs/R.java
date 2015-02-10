@@ -27,17 +27,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progerss_reached_color=0x7f010002;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int progress_reached_bar_height=0x7f010003;
+        public static final int backgroundColor=0x7f010002;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -46,7 +36,32 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progress_text_color=0x7f010006;
+        public static final int dotview=0x7f010006;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>buttom</code></td><td>3</td><td></td></tr>
+<tr><td><code>center</code></td><td>4</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>5</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>6</td><td></td></tr>
+</table>
+         */
+        public static final int gravity=0x7f010005;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progerss_reached_color=0x7f010008;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -56,7 +71,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progress_text_offset=0x7f010007;
+        public static final int progress_reached_bar_height=0x7f010009;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_text_color=0x7f01000c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -66,7 +90,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progress_text_size=0x7f010005;
+        public static final int progress_text_offset=0x7f01000d;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int progress_text_size=0x7f01000b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -77,7 +111,7 @@ containing a value of this type.
 <tr><td><code>invisible</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int progress_text_visibility=0x7f010008;
+        public static final int progress_text_visibility=0x7f01000e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -87,7 +121,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progress_unreached_bar_height=0x7f010004;
+        public static final int progress_unreached_bar_height=0x7f01000a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -96,7 +130,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progress_unreached_color=0x7f010001;
+        public static final int progress_unreached_color=0x7f010007;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -106,7 +140,34 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int radius=0x7f010009;
+        public static final int radius=0x7f01000f;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int text=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textColor=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textSize=0x7f010003;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -147,20 +208,35 @@ containing a value of this type.
         public static final int youce=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000d;
-        public static final int five=0x7f080009;
-        public static final int four=0x7f080008;
-        public static final int id_drawerLayout=0x7f080003;
-        public static final int id_left_menu=0x7f080004;
-        public static final int id_right_menu=0x7f08000a;
-        public static final int invisible=0x7f080000;
-        public static final int one=0x7f080005;
-        public static final int slidingmenu=0x7f080002;
-        public static final int test=0x7f08000c;
-        public static final int thanks=0x7f08000b;
-        public static final int three=0x7f080007;
-        public static final int two=0x7f080006;
-        public static final int visible=0x7f080001;
+        public static final int action_settings=0x7f08001c;
+        public static final int buttom=0x7f080000;
+        public static final int center=0x7f080001;
+        public static final int center_horizontal=0x7f080002;
+        public static final int center_vertical=0x7f080003;
+        public static final int dot1=0x7f080019;
+        public static final int dot2=0x7f08001a;
+        public static final int dot3=0x7f08001b;
+        public static final int five=0x7f080010;
+        public static final int four=0x7f08000f;
+        public static final int id_drawerLayout=0x7f08000a;
+        public static final int id_left_menu=0x7f08000b;
+        public static final int id_right_menu=0x7f080011;
+        public static final int invisible=0x7f080007;
+        public static final int left=0x7f080004;
+        public static final int mView1=0x7f080012;
+        public static final int mView2=0x7f080013;
+        public static final int one=0x7f08000c;
+        public static final int right=0x7f080005;
+        public static final int slidingmenu=0x7f080009;
+        public static final int start=0x7f080017;
+        public static final int stop=0x7f080018;
+        public static final int test=0x7f080015;
+        public static final int test_objectAnimation=0x7f080016;
+        public static final int thanks=0x7f080014;
+        public static final int three=0x7f08000e;
+        public static final int top=0x7f080006;
+        public static final int two=0x7f08000d;
+        public static final int visible=0x7f080008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -169,13 +245,20 @@ containing a value of this type.
         public static final int activity_slidingmenu_003=0x7f030003;
         public static final int activity_slidingmenu_004=0x7f030004;
         public static final int activity_slidingmenu_005=0x7f030005;
-        public static final int g_2048=0x7f030006;
-        public static final int hy_progress_h=0x7f030007;
-        public static final int inject_sample=0x7f030008;
-        public static final int lekan_video=0x7f030009;
-        public static final int lekan_video_player=0x7f03000a;
-        public static final int slidingmenu_001=0x7f03000b;
-        public static final int slidingmenu_left=0x7f03000c;
+        public static final int cus_view=0x7f030006;
+        public static final int g_2048=0x7f030007;
+        public static final int hy_progress_h=0x7f030008;
+        public static final int inject_sample=0x7f030009;
+        public static final int lekan_video=0x7f03000a;
+        public static final int lekan_video_player=0x7f03000b;
+        public static final int propert_animation=0x7f03000c;
+        public static final int slidingmenu_001=0x7f03000d;
+        public static final int slidingmenu_left=0x7f03000e;
+        public static final int test_shortcut=0x7f03000f;
+        public static final int use_service=0x7f030010;
+        public static final int view1_aty=0x7f030011;
+        public static final int view2_aty=0x7f030012;
+        public static final int view3_aty=0x7f030013;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -239,8 +322,8 @@ containing a value of this type.
            @see #HorizontalProgerssBarWithNumber_progress_unreached_color
          */
         public static final int[] HorizontalProgerssBarWithNumber = {
-            0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004,
-            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e
         };
         /**
           <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#progerss_reached_color}
@@ -368,6 +451,138 @@ containing a value of this type.
           @attr name org.fireking.app.blogs:progress_unreached_color
         */
         public static final int HorizontalProgerssBarWithNumber_progress_unreached_color = 0;
+        /** Attributes that can be used with a Hy_customview1.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Hy_customview1_backgroundColor org.fireking.app.blogs:backgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Hy_customview1_gravity org.fireking.app.blogs:gravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Hy_customview1_text org.fireking.app.blogs:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #Hy_customview1_textColor org.fireking.app.blogs:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Hy_customview1_textSize org.fireking.app.blogs:textSize}</code></td><td></td></tr>
+           </table>
+           @see #Hy_customview1_backgroundColor
+           @see #Hy_customview1_gravity
+           @see #Hy_customview1_text
+           @see #Hy_customview1_textColor
+           @see #Hy_customview1_textSize
+         */
+        public static final int[] Hy_customview1 = {
+            0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004,
+            0x7f010005
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#backgroundColor}
+          attribute's value can be found in the {@link #Hy_customview1} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:backgroundColor
+        */
+        public static final int Hy_customview1_backgroundColor = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#gravity}
+          attribute's value can be found in the {@link #Hy_customview1} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>left</code></td><td>0</td><td></td></tr>
+<tr><td><code>right</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+<tr><td><code>buttom</code></td><td>3</td><td></td></tr>
+<tr><td><code>center</code></td><td>4</td><td></td></tr>
+<tr><td><code>center_vertical</code></td><td>5</td><td></td></tr>
+<tr><td><code>center_horizontal</code></td><td>6</td><td></td></tr>
+</table>
+          @attr name org.fireking.app.blogs:gravity
+        */
+        public static final int Hy_customview1_gravity = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#text}
+          attribute's value can be found in the {@link #Hy_customview1} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:text
+        */
+        public static final int Hy_customview1_text = 3;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#textColor}
+          attribute's value can be found in the {@link #Hy_customview1} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:textColor
+        */
+        public static final int Hy_customview1_textColor = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#textSize}
+          attribute's value can be found in the {@link #Hy_customview1} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:textSize
+        */
+        public static final int Hy_customview1_textSize = 2;
+        /** Attributes that can be used with a Hy_dotview.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Hy_dotview_dotview org.fireking.app.blogs:dotview}</code></td><td></td></tr>
+           </table>
+           @see #Hy_dotview_dotview
+         */
+        public static final int[] Hy_dotview = {
+            0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#dotview}
+          attribute's value can be found in the {@link #Hy_dotview} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.fireking.app.blogs:dotview
+        */
+        public static final int Hy_dotview_dotview = 0;
         /** Attributes that can be used with a RoundProgressBarWithNumber.
            <p>Includes the following attributes:</p>
            <table>
@@ -379,7 +594,7 @@ containing a value of this type.
            @see #RoundProgressBarWithNumber_radius
          */
         public static final int[] RoundProgressBarWithNumber = {
-            0x7f010009
+            0x7f01000f
         };
         /**
           <p>This symbol is the offset where the {@link org.fireking.app.blogs.R.attr#radius}

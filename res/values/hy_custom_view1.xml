@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Hy_customview1">
+        <attr name="textColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="buttom" value="3" />
+            <enum name="center" value="4" />
+            <enum name="center_vertical" value="5" />
+            <enum name="center_horizontal" value="6" />
+        </attr>
+    </declare-styleable>
+
+</resources>
