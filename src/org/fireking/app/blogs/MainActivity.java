@@ -11,6 +11,7 @@ import org.fireking.app.blogs.menu.SlidingMenu005;
 import org.fireking.app.blogs.pgb_hy.HyProgressBar;
 import org.fireking.app.blogs.property_animation.PropertyAnimationTest;
 import org.fireking.app.blogs.service.UseService;
+import org.fireking.app.blogs.sohu_channle.SohuContentActivity;
 import org.fireking.app.blogs.video.LeKanVideo;
 
 import android.app.Activity;
@@ -72,6 +73,10 @@ public class MainActivity extends Activity {
 
 	public void customView(View view) {
 		router(CustomView.class);
+	}
+
+	public void sohuChannle(View view) {
+		router(SohuContentActivity.class);
 	}
 
 	private void router(Class clazz) {

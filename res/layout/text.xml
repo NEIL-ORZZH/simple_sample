@@ -1,0 +1,8 @@
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@null"
+    android:padding="8dip"
+    android:text="高成本大制作"
+    android:textColor="@drawable/textcolor"
+    android:textSize="14sp" />

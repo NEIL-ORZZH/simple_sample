@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#34567891"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </RadioGroup>
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/gap_line"
+        android:layout_width="2dip"
+        android:layout_height="2dip"
+        android:background="#ff66ff" />
+
+    <org.fireking.app.blogs.sohu_channle.LazyLoadViewPager
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </org.fireking.app.blogs.sohu_channle.LazyLoadViewPager>
+
+</LinearLayout>
