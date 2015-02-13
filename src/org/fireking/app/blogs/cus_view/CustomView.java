@@ -1,8 +1,6 @@
 package org.fireking.app.blogs.cus_view;
 
 import org.fireking.app.blogs.R;
-import org.fireking.app.blogs.cus_view.view.CusView1;
-import org.fireking.app.blogs.cus_view.view.CusView2;
 import org.fireking.app.blogs.inject.framework.KimiraInject;
 import org.fireking.app.blogs.inject.framework.anotation.InjectView;
 
@@ -20,6 +18,9 @@ public class CustomView extends Activity {
 
 	@InjectView(R.id.mView1)
 	private TextView mView1;
+
+	@InjectView(R.id.mView3)
+	private TextView mView3;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,14 @@ public class CustomView extends Activity {
 			@Override
 			public void onClick(View v) {
 				router(View2Aty.class);
+			}
+		});
+
+		mView3.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				router(View3Aty.class);
 			}
 		});
 	}

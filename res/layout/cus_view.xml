@@ -24,4 +24,14 @@
         android:text="自定义view二"
         android:textColor="@android:color/white" />
 
+    <TextView
+        android:id="@+id/mView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9f4f15"
+        android:gravity="center"
+        android:padding="16dip"
+        android:text="自定义tagview"
+        android:textColor="@android:color/white" />
+
 </LinearLayout>

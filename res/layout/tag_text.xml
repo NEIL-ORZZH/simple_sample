@@ -1,0 +1,6 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tag_textview_shape"
+    android:text="神斗士星矢（美）"
+    android:textColor="@android:color/white" />

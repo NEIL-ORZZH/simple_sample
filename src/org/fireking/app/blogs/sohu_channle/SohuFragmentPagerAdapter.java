@@ -20,7 +20,12 @@ public class SohuFragmentPagerAdapter extends FragmentStatePagerAdapter {
 
 	@Override
 	public Fragment getItem(int position) {
-		SohuFragmnet f = new SohuFragmnet();
+		Fragment f = null;
+		if (position == 1) {
+			f = new AppStoreFragment();
+		} else {
+			f = new SohuFragmnet();
+		}
 		Bundle b = new Bundle();
 		b.putString("mm", titles[position]);
 		b.putInt("pos", position);

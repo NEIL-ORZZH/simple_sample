@@ -3,10 +3,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <org.fireking.app.blogs.cus_viewgroup.SimpleTagView
+    <ListView
+        android:id="@+id/app_detail_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dip" >
-    </org.fireking.app.blogs.cus_viewgroup.SimpleTagView>
-
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+	
 </LinearLayout>
